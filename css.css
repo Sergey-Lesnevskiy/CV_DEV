@@ -28,7 +28,7 @@ header{
 .position{
     padding-left: 30px;
 }
-.foto{
+.photo{
     width: 216px;
     height: 100px;
     background-color: aliceblue;
@@ -53,7 +53,7 @@ p{
         padding: 10px;
         flex-direction: column;
     }
-    .foto {
+    .photo {
         height: 280px;
         margin: 0 auto;
     }
