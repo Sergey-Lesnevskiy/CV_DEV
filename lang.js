@@ -1,170 +1,240 @@
 const langArr = {
   hero: {
     title: {
-      ru: "Лесневский Сергей Викторович",
+      ru: "Лесневский Сергей",
       en: "Lesnevsky Sergey",
     },
   },
-  target: {
+  profile: {
     title: {
-      ru: "Цель",
-      en: "Goal",
+      ru: "Профиль",
+      en: "Profile",
     },
     desc: {
-      ru: `Начать карьеру разработчика ПО в Вашей компании, стать частью команды разработки.
-      Приносить как можно больше пользы в компании, расширить персональный опыт и улучшить профессиональные навыки.`,
-      en: `Start a software developer career in your company, become part of the development team,
-      bring as much benefit to the company as possible, expand personal experience and improve professional
-      skills.`,
+      ru: `Участвую в хакатонах и онлайн конкурсах по веб-разработке.<br> 
+      Постоянно обучаюсь новым технологиям и улучшению существующих навыков.<br> 
+      Свободное время посвящаю изучению современных тенденций в веб-разработке и участию в open-source проектах.<br> 
+      Ссылки на проекты можно найти на моем GitHub: <a href="https://github.com/Sergey-Lesnevskiy">https://github.com/Sergey-Lesnevskiy</a>`,
+      en: ` I participate in hackathons and online web development competitions.<br> 
+      I am constantly learning new technologies and improving existing skills.<br> 
+      I devote my free time to studying modern trends in web development and participating in open-source projects.<br> 
+      Links to projects can be found on my GitHub: <a href="https://github.com/Sergey-Lesnevskiy">https://github.com/Sergey-Lesnevskiy</a> .`,
     },
   },
-  tools: {
+  certificates: {
     title: {
-      ru: "Инструменты и технологии",
-      en: "Tools and technologies",
+      ru: "Сертификаты",
+      en: "Certificates",
     },
-    html: {
-      ru: `-HTML (9-10)`,
-      en: `-HTML (9-10)`,
-    },
-    css: {
-      ru: `-CSS (8-10) (знаю flex/grid(предпочитаю flex))`,
-      en: `-CSS (8-10) (know flex/grid(prefer flex))`,
-    },
-    js: {
-      ru: `-JS (9-10) (работа с запросами, промисами, событиями, spread и т.д.)`,
-      en: `JS (9-10) (working with requests, promises, events, spread, etc.)`,
-    },
-    ts: {
-      ru: `- TS (7-10) (создание интерфейсов, работа с enum и т.д.)`,
-      en: `- TS (7-10) (creating interface, working with enum etc.)`,
-    },
-    react: {
-      ru: `- React (7 -10) (Разработка на классах/функциях)`,
-      en: `- React (7 -10) (development on classes/functions)`,
-    },
-    git: {
-      ru: `- GIT (7-10) (создаю и перемещаюсь по веткам, работа с github)`,
-      en: `- GIT (7-10) (creating and moving through branches, working with github)`,
-    },
+
   },
-  myself: {
+  skills: {
     title: {
-      ru: "О себе",
-      en: "About me",
+      ru: "Навыки",
+      en: "Skills",
     },
-    desc: {
-      ru: `Большой опыт работы, в том числе и на руководящей позиции (заведующий отделением), сформировали такие навыки,
-      как работа в команде, работа в режиме повышенной нагрузки и в условиях
-      сжатых сроков.`,
-      en: `Extensive work experience, including in a leadership position (head of the department of folk instruments)
-      , has formed skills such as teamwork, working in a high-load mode and under
-      tight deadlines.`,
+    API: {
+      ru: `Работа с API запросами, GraphQL`,
+      en: `Work with API request, GraphQL`,
+    },
+    data: {
+      ru: `Работа с базами данных`,
+      en: `Work with database`,
+    },
+    adaptive: {
+      ru: `Адаптивная и кросс-браузерная верстка`,
+      en: `Adaptive and cross-browser layout`,
     },
   },
+
   education: {
     title: {
       ru: "Образование",
-      en: "Education and courses: ",
+      en: "Education: ",
     },
     senla: {
-      ru: "- Курсы QAQ в компании Senla(Java)",
-      en: "- Courses Automated testing in the company Senla(Java)",
+      ru: "Курсы QAQ в компании Senla(Java)",
+      en: "Courses Automated testing in the company Senla(Java)",
     },
     bgam: {
-      ru: "- Высшее образование БГАМ",
-      en: "- I graduated from the BGAM",
+      ru: "2009 Высшее образование БГАМ",
+      en: "2020 I graduated from the BGAM",
     },
   },
   experience: {
     title: {
       ru: "Опыт работы",
-      en: "My experience",
+      en: "Work Experience",
     },
-    redRover: {
-      ru: "- 2024 - настоящее время веду уроки frontend в онлайн школе redRover",
-      en: "- 2024 - current time redRover (teacher front-end)",
+    pixel: {
+      ru: `Создал двухстраничный адаптивный сайт по макету из Figma с точностью до пикселя
+      (pixel perfect).`,
+      en: `I created a two-page adaptive website based on a pixel-perfect layout from Figma
+      (pixel perfect).`,
+    },
+    burger: {
+      ru: `Реализовал функционал каруселей, бургер-меню и попапов с использованием
+      JavaScript.`,
+      en: `Implemented carousel, burger menu and popup functionality using
+      JavaScript.`,
+    },
+    stack: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+
+    browser: {
+      ru: `Обеспечил кросс-браузерную совместимость и адаптивность сайта.`,
+      en: `Ensured cross-browser compatibility and adaptability of the site.`,
+    },
+    trainee: {
+      ru: "стажировка",
+      en: "trainee",
     },
     freelance: {
-      ru: "- 2022 freelance разработал сайт для музыкальной школы на (wordpress)",
-      en: "- 2022 freelance developed a website for a music school №6 (wordpress)",
+      ru: "Фриланс",
+      en: "Freelance",
     },
-    FIFA: {
-      ru: `- поддерживаю, вношу корректировки, добавляю новый функционала в проект по созданию турниров FIFA
-    (React TS)(freelance)`,
-      en: `- participated in making adjustments, adding new functionality to the tournament creation project FIFA
-    (React TS)(freelance)`,
+    dmsh: {
+      ru: "Сайт для музыкальной школы.",
+      en: "Website for a music school.",
     },
-    teacher: {
-      ru: `- 2008 - настоящее время ДМШИ№6 г. Минск (преподаватель)`,
-      en: `- 2008 - current time DMSHI№6 (teacher)`,
+    beCloud: {
+      ru: `Изучил документацию по работе с виртуальным защищенным хостингом BeCloud и успешно перенес сайт на
+      сервер.`,
+      en: "Studied the BeCloud secure shared hosting documentation and successfully migrated the site to the server.",
     },
-    accompanist: {
-      ru: "- 2005 - 2009 МГДДиМ г. Минск (аккомпаниатор)",
-      en: "- 2005 - 2009 MGDDM (accompanist)",
+    wordPress: {
+      ru: `Изучил документацию для работы с WordPress(установку, настройку и
+        администрирование сайта).`,
+      en: `Studied the documentation for working with WordPress(installing, configuring and administering the site).`,
+    },
+    optimized: {
+      ru: `Оптимизировал производительность сайта и обеспечил его бесперебойную работу.`,
+      en: `Optimized the performance of the website and ensured it ran smoothly.`,
+    },
+    momentumServer: {
+      ru: `Работал с серверными запросами и отображением данных на экране.`,
+      en: `Worked with server requests and displaying data on the screen.`,
+    },
+    momentumInteractivity: {
+      ru: `Создал минимальный интерактив с пользователем, обеспечив удобство использования
+      приложения.`,
+      en: `Created minimal interactivity with the user, ensuring the usability of the
+      of the application.`,
+    },
+    momentumAudio: {
+      ru: `Разработал кастомный аудиоплеер, интегрировав его в пользовательский интерфейс.`,
+      en: `Developed a custom audio player, integrating it into the UI`,
+    },
+    pixel1: {
+      ru: `Разработал одностраничный адаптивный сайт по макету из Figma с точностью до
+  пикселя.`,
+      en: `Developed a one-page adaptive website based on Figma layout with accuracy up to
+  pixel.`
+    },
+    fake: {
+      ru: `Реализовал 'fake' запросы на сервер для демонстрации взаимодействия с API.`,
+      en: `Implemented ‘fake’ requests to the server to demonstrate interaction with the API.`
+    },
+    stack: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    copy: {
+      ru: `Создал копию игры в пятнашки, используя Canvas и JavaScript.`,
+      en: `Created a copy of the game of spots using Canvas and JavaScript.`
+    },
+    animation: {
+      ru: `Обеспечил интерактивное взаимодействие с пользователем и плавную анимацию.`,
+      en: `Provided interactive user interaction and smooth animations.`
+    },
+    interactivity: {
+      ru: `Создал минимальный интерактив с пользователем, обеспечив удобство использования приложения.`,
+      en: `Created minimal interactivity with the user, ensuring the usability of the application.`
+    },
+    fifa: {
+      ru: `Онлайн приложение для проведения турниров по FIFA. Игроки соревнуются между собой победами в матчах FIFA.`,
+      en: `Online application for FIFA tournaments. Players compete by winning FIFA matches.`
+    },
+    admin: {
+      ru: `Добавил раздел турниры в админ-панель.`,
+      en: `Added a tournaments section to the admin panel.`
+    },
+    conditions: {
+      ru: `Добавил разделы в админ-панели для изменения условий турнира.`,
+      en: `Added sections in the admin panel for changing tournament conditions.`
+    },
+    ui: {
+      ru: `Редактировал UI карточек игроков.`,
+      en: `Edited the UI of the player cards.`
+    },
+    valid: {
+      ru: `Добавил валидацию данных при смене пароля пользователем.`,
+      en: `Added data validation when user changes password.`
+    },
+    oldData: {
+      ru: `Редактировал корректное отображение данных для сыгранных турниров.`,
+      en: `Edited the correct data display for tournaments played.`
+    },
+    logic: {
+      ru: `Разработал логическую часть онлайн-магазина (SPA) с использованием TypeScript.`,
+      en: `Developed the logical part of an online shop (SPA) using TypeScript.`
+    },
+    sort: {
+      ru: `Реализовал поиск, сортировку, добавление и удаление товаров в корзину.`,
+      en: `Implemented searching, sorting, adding and removing items to the basket.`
+    },
+    routS: {
+      ru: `Настроил роутинг для обеспечения плавной навигации по приложению.`,
+      en: `Configured routing to ensure smooth navigation through the application.`
+    },
+
+    study: {
+      ru: `Учебные проекты:`,
+      en: `Study Projects:`
+    },
+    database: {
+      ru: `В рамках финального проекта курсов JS отвечал за работу с базой данных и backend.`,
+      en: `As part of the final course project, JS was responsible for the database and backend.`
+    },
+    uniqueColor: {
+      ru: `Реализовал авторизацию и аутентификация пользователя.`,
+      en: `Implemented rendering habits and adding them with a unique color for each.`
+    },
+    saveData: {
+      ru: `Обеспечил сохранение данных и их восстановление при перезагрузке страницы.`,
+      en: `Ensured that data is saved and restored when the page is reloaded.`
+    },
+    finaleProject: {
+      ru: `Финальный проект курса по React, включающий работу с GraphQL.`,
+      en: `Final project for a course on React, including work with GraphQL.`
+    },
+    GraphQLOptimization: {
+      ru: `Учебные проекты:`,
+      en: `Integrated GraphQL to optimise server and client interaction.`
+    },
+    reactApi: {
+      ru: `Учебный проект на React, в котором была реализована работа с API.`,
+      en: `A React tutorial project that involved working with an API.`
+    },
+    useForm: {
+      ru: `Обеспечил работу формы через RefObject и useForm, а также серверный рендеринг (SSR).`,
+      en: `Study Projects:`
+    },
+    externalServices: {
+      ru: `Настроил взаимодействие с внешними сервисами и обработку данных форм.`,
+      en: `Configured interaction with external services and processing of form data.`
     },
   },
-  progects: {
-    title: {
-      ru: "Мои проекты: ",
-      en: " My projects: ",
+  footer: {
+    googleDocx: {
+      ru: `Ссылка СV на docs.google.com:`,
+      en: `Link to docs.google.com:`
     },
-    dmshi6: {
-      ru: `Сайт для музыкальной школы.
-  1) Я познакомился с виртуальным защищенным хостингом BeCloud и перенес сайт на сервер.
-  2) Получил понимание работы wordpress.`,
-      en: " Website for a music school (wordpress)",
-    },
-    momentum: {
-      ru: "Работа с запросами к серверу и вывод данных на экран, минимальный интерактив с пользователем, создание кастомного аудиоплеерa",
-      en: "Working with requests to the server and displaying data on the screen, minimal interaction with the user, creating a custom audio player",
-    },
-    keyboard: {
-      ru: "Работа с событиями клавиатуры (JS)",
-      en: "Working with keyboard events (JS)",
-    },
-    zoo: {
-      ru: "Двухстраничный адаптивный сайт по макету из Figma (pixel perfect) реализация каруселей, бургер-меню, попап и т.д.(JS)",
-      en:`Two-page adaptive website based on the layout of Figma (pixel perfect) implementation of carousels, burger
-      menu,
-      popup, etc. (JS)`,
-    },
-    portfolio: {
-      ru: "Одностраничный адаптивный сайт по макету из Figma (pixel perfect) бургер-меню, валидацию формы, 'fake' запрос на сервер (JS)",
-      en: `One-page adaptive website based on the layout of Figma (pixel perfect) burger menu, validation form, 'fake' server requests (JS)`,
-    },
-    fifteenth: {
-      ru: "Копия игры в пятнашки, реализация на Canvas(JS)",
-      en: "A copy of the tag game, implementation on Canvas(JS)",
-    },
-    store: {
-      ru: `Работа представляет собой онлайн магазин(SPA), мной былa выполнена вся логика по работе с товаром (поиск,
-    сортировка, добавление/удаление в корзину...), роутинг(TS)`,
-      en: `The work is an online store (SPA), I have done all the logic for working with the product
-      (search,
-      sorting, adding/removing to the trash...), routing(TS)`,
-    },
-    habit: {
-      ru: `Финальный проект курсов JS, в нем я отвечал за работу с базой данных и
-      backend, также рендеринг habit
-      и
-      добавления для каждого, уникального цвета.(TS)`,
-      en: `The final project of the courses, in which I was responsible for working with the database and backend,
-      as well as rendering habit and
-      adding for each unique color.(TS)`,
-    },
-    graph: {
-      ru: `Финальный проект курса по React. GraphiQL — это инструмент с открытым
-      исходным кодом Однако наше
-      приложение также будет включать возможности авторизации/аутентификации, чтобы предоставить доступ к
-      инструменту только авторизованным пользователям. (React)`,
-      en: `The final draft of the React course. GraphiQL is an open source tool, however, our
-      application will also include authorization/authentication capabilities to grant access to
-      the tool only to authorized users. (React)`,
-    },
-    form: {
-      ru: `Учебный проект на React. В нём реализована работа с API, с формой через RefObject и useForm, SSR`,
-      en: "Educational project in React. It implements work with the API, with the form RefObject and useForm, SSR",
-    },
-  },
+    saveDocx: {
+      ru: `Скачать CV в формате docx:`,
+      en: `Download the CV in docx format:`
+    }
+  }
 };

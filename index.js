@@ -10,7 +10,6 @@ function changeURLLanguage() {
 
 function changeLanguage() {
   let hash = window.location.hash;
-  console.log(hash);
   hash = hash.substring(1);
   if (!allLang.includes(hash)) {
     location.href = ` ${window.location.pathname}#en`;
@@ -23,7 +22,7 @@ function changeLanguage() {
     for (let key2 in langArr[key]) {
       document.querySelector(`.lng-${key}__${key2}`).innerHTML =
         langArr[key][key2][hash];
-        // console.log(document.querySelector(`.lng-${key}__${key2}`));
+      console.log(document.querySelector(`.lng-${key}__${key2}`));
     }
   }
 }
