@@ -113,6 +113,14 @@ const langArr = {
       ru: `Оптимизировал производительность сайта и обеспечил его бесперебойную работу.`,
       en: `Optimized the performance of the website and ensured it ran smoothly.`,
     },
+    PHP: {
+      ru: `Добавлял компоненты на страницы с помощью PHP.`,
+      en: `I added components to the pages with the help of PHP`,
+    },
+    stackD: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
     momentumServer: {
       ru: `Работал с серверными запросами и отображением данных на экране.`,
       en: `Worked with server requests and displaying data on the screen.`,
@@ -127,17 +135,25 @@ const langArr = {
       ru: `Разработал кастомный аудиоплеер, интегрировав его в пользовательский интерфейс.`,
       en: `Developed a custom audio player, integrating it into the UI`,
     },
+    stackMom: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
     pixel1: {
       ru: `Разработал одностраничный адаптивный сайт по макету из Figma с точностью до
   пикселя.`,
       en: `Developed a one-page adaptive website based on Figma layout with accuracy up to
   pixel.`
     },
+    burgerP: {
+      ru: `Реализовал бургер-меню и валидацию формы.`,
+      en: `Implemented burger-menu and form validation`,
+    },
     fake: {
       ru: `Реализовал 'fake' запросы на сервер для демонстрации взаимодействия с API.`,
       en: `Implemented ‘fake’ requests to the server to demonstrate interaction with the API.`
     },
-    stack: {
+    stackPort: {
       ru: `Стек:`,
       en: `Stack:`,
     },
@@ -152,6 +168,10 @@ const langArr = {
     interactivity: {
       ru: `Создал минимальный интерактив с пользователем, обеспечив удобство использования приложения.`,
       en: `Created minimal interactivity with the user, ensuring the usability of the application.`
+    },
+    stackFif: {
+      ru: `Стек:`,
+      en: `Stack:`,
     },
     fifa: {
       ru: `Онлайн приложение для проведения турниров по FIFA. Игроки соревнуются между собой победами в матчах FIFA.`,
@@ -173,6 +193,10 @@ const langArr = {
       ru: `Добавил валидацию данных при смене пароля пользователем.`,
       en: `Added data validation when user changes password.`
     },
+    stackFiFa: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
     oldData: {
       ru: `Редактировал корректное отображение данных для сыгранных турниров.`,
       en: `Edited the correct data display for tournaments played.`
@@ -189,7 +213,10 @@ const langArr = {
       ru: `Настроил роутинг для обеспечения плавной навигации по приложению.`,
       en: `Configured routing to ensure smooth navigation through the application.`
     },
-
+    stackOnline: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
     study: {
       ru: `Учебные проекты:`,
       en: `Study Projects:`
@@ -206,6 +233,10 @@ const langArr = {
       ru: `Обеспечил сохранение данных и их восстановление при перезагрузке страницы.`,
       en: `Ensured that data is saved and restored when the page is reloaded.`
     },
+    stackHabit: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
     finaleProject: {
       ru: `Финальный проект курса по React, включающий работу с GraphQL.`,
       en: `Final project for a course on React, including work with GraphQL.`
@@ -213,6 +244,14 @@ const langArr = {
     GraphQLOptimization: {
       ru: `Учебные проекты:`,
       en: `Integrated GraphQL to optimise server and client interaction.`
+    },
+    stackGraphQL: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    stackForm: {
+      ru: `Стек:`,
+      en: `Stack:`,
     },
     reactApi: {
       ru: `Учебный проект на React, в котором была реализована работа с API.`,
