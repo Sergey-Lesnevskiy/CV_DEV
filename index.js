@@ -22,7 +22,7 @@ function changeLanguage() {
     for (let key2 in langArr[key]) {
       document.querySelector(`.lng-${key}__${key2}`).innerHTML =
         langArr[key][key2][hash];
-      console.log(document.querySelector(`.lng-${key}__${key2}`));
+      // console.log(document.querySelector(`.lng-${key}__${key2}`));
     }
   }
 }
