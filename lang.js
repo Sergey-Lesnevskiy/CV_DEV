@@ -6,19 +6,30 @@ const langArr = {
     },
   },
   profile: {
+    goal:{
+      ru: "Цель",
+      en: "Goal",},
     title: {
       ru: "Профиль",
       en: "Profile",
     },
     desc: {
-      ru: `Участвую в хакатонах и онлайн конкурсах по веб-разработке.<br> 
+      ru: `
+      Имею 1 год опыта создания веб-приложений (freelance). 
+      Проходил стажировку в TechInLab (01/2024 – 04/2024). <br>
+      Принял решение перейти с freelance на официальное трудоустройство для получения более предсказуемой нагрузки и оптимизации рабочего графика.
+      Участвую в хакатонах и онлайн конкурсах по веб-разработке.<br> 
       Постоянно обучаюсь новым технологиям и улучшению существующих навыков.<br> 
       Свободное время посвящаю изучению современных тенденций в веб-разработке и участию в open-source проектах.<br> 
-      Ссылки на проекты можно найти на моем GitHub: <a href="https://github.com/Sergey-Lesnevskiy">https://github.com/Sergey-Lesnevskiy</a>`,
-      en: ` I participate in hackathons and online web development competitions.<br> 
+      GitHub: <a href="https://github.com/Sergey-Lesnevskiy">https://github.com/Sergey-Lesnevskiy</a>`,
+      en: `
+      I have 1 year of experience building web applications (freelance). 
+      Interned at TechInLab (01/2024 - 04/2024).<br>
+      I decided to switch from freelance to formal employment to get more predictable workload and optimize my work schedule.
+      I participate in hackathons and online web development competitions.<br> 
       I am constantly learning new technologies and improving existing skills.<br> 
       I devote my free time to studying modern trends in web development and participating in open-source projects.<br> 
-      Links to projects can be found on my GitHub: <a href="https://github.com/Sergey-Lesnevskiy">https://github.com/Sergey-Lesnevskiy</a> .`,
+      GitHub: <a href="https://github.com/Sergey-Lesnevskiy">https://github.com/Sergey-Lesnevskiy</a> .`,
     },
   },
   certificates: {
@@ -26,7 +37,6 @@ const langArr = {
       ru: "Сертификаты",
       en: "Certificates",
     },
-
   },
   skills: {
     title: {
@@ -53,12 +63,12 @@ const langArr = {
       en: "Education: ",
     },
     senla: {
-      ru: "Курсы QAQ в компании Senla(Java)",
-      en: "Courses Automated testing in the company Senla(Java)",
+      ru: "2020 Курсы QAQ в компании Senla(Java)",
+      en: "2020 Courses Automated testing in the company Senla(Java)",
     },
     bgam: {
       ru: "2009 Высшее образование БГАМ",
-      en: "2020 I graduated from the BGAM",
+      en: "2009 I graduated from the BGAM",
     },
   },
   experience: {
@@ -198,8 +208,8 @@ const langArr = {
       en: `Stack:`,
     },
     oldData: {
-      ru: `Редактировал корректное отображение данных для сыгранных турниров.`,
-      en: `Edited the correct data display for tournaments played.`
+      ru: `Редактировал отображение данных для сыгранных турниров.`,
+      en: `Edited the data display for tournaments played.`
     },
     logic: {
       ru: `Разработал логическую часть онлайн-магазина (SPA) с использованием TypeScript.`,
@@ -268,12 +278,12 @@ const langArr = {
   },
   footer: {
     googleDocx: {
-      ru: `Ссылка СV на docs.google.com:`,
-      en: `Link to docs.google.com:`
+      ru: `Ссылка на CV: &nbsp`,
+      en: `Link to CV: &nbsp`
     },
     saveDocx: {
-      ru: `Скачать CV в формате docx:`,
-      en: `Download the CV in docx format:`
+      ru: `Скачать CV (docx): &nbsp`,
+      en: `Download the CV (docx): &nbsp`
     }
   }
 };

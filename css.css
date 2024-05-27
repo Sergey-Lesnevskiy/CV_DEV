@@ -47,14 +47,10 @@ header {
   height: 40px;
 }
 
-/* .change-lang {
-  background-color: inherit;
-  width: 100px;
-} */
 
 .hero {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
 }
@@ -64,7 +60,7 @@ header {
 }
 
 .lng-position {
-  padding-left: 30px;
+  /* padding-left: 30px; */
   margin-top: 0;
 }
 
@@ -92,13 +88,20 @@ p {
   padding-left: 40px;
   margin: 0;
 }
-
+.lng-profile__desc{
+  max-width: 700px;
+}
 .lng-hero__title {
   max-width: 456px;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   margin-bottom: 10px;
 }
-
+.lng-footer__googleDocx, .lng-footer__saveDocx{
+  display: inline-block;
+}
+.lng-footer__googleDocx+a{
+  display: inline-block;
+}
 .certificates__item>p {
   padding: 0;
 }
@@ -113,8 +116,12 @@ p {
   list-style: disc;
   padding-left: 58px;
   margin-top: 0;
+  margin-bottom: 0;
+  max-width: 770px;
 }
-
+.experience__item{
+  margin-bottom: 15px;
+}
 .footer {
   display: flex;
   justify-content: center;
