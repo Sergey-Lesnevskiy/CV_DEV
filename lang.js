@@ -6,26 +6,27 @@ const langArr = {
     },
   },
   profile: {
-    goal:{
+    goal: {
       ru: "Цель",
-      en: "Goal",},
+      en: "Goal",
+    },
     title: {
       ru: "Профиль",
       en: "Profile",
     },
     desc: {
       ru: `
-      Имею 1 год опыта создания веб-приложений (freelance). 
-      Проходил стажировку в TechInLab (01/2024 – 04/2024). <br>
-      Принял решение перейти с freelance на официальное трудоустройство для получения более предсказуемой нагрузки и оптимизации рабочего графика.
+      Frontend разработчик, опыт создания веб-приложений 1 год.<br>
+      Открыт к любым предложениям (работа в штате, по договору подряда, самозанятость). <br>
+      Рассмотрю вариант стажировки.<br>
       Участвую в хакатонах и онлайн конкурсах по веб-разработке.<br> 
       Постоянно обучаюсь новым технологиям и улучшению существующих навыков.<br> 
       Свободное время посвящаю изучению современных тенденций в веб-разработке и участию в open-source проектах.<br> 
       GitHub: <a href="https://github.com/Sergey-Lesnevskiy">https://github.com/Sergey-Lesnevskiy</a>`,
       en: `
-      I have 1 year of experience building web applications (freelance). 
-      Interned at TechInLab (01/2024 - 04/2024).<br>
-      I decided to switch from freelance to formal employment to get more predictable workload and optimize my work schedule.
+      Frontend developer, experience in creating web applications for 1 year. <br>
+      Open to any offers (work in the state, on a contractual basis, self-employment). <br>
+      I will consider an internship. <br>
       I participate in hackathons and online web development competitions.<br> 
       I am constantly learning new technologies and improving existing skills.<br> 
       I devote my free time to studying modern trends in web development and participating in open-source projects.<br> 
