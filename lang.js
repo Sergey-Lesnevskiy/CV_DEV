@@ -279,8 +279,8 @@ const langArr = {
       en: `A React tutorial project that involved working with an API.`
     },
     useForm: {
-      ru: `Обеспечил работу формы через RefObject и useForm, а также серверный рендеринг (SSR).`,
-      en: `Study Projects:`
+      ru: `Обеспечил работу формы через useRef и useForm, а также серверный рендеринг (SSR).`,
+      en: `Ensured the operation of the form through RefObject and useForm, as well as server rendering (SSR)`
     },
     externalServices: {
       ru: `Настроил взаимодействие с внешними сервисами и обработку данных форм.`,
