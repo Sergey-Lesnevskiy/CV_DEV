@@ -237,8 +237,18 @@ const langArr = {
       en: `As part of the final course project, JS was responsible for the database and backend.`
     },
     uniqueColor: {
-      ru: `Реализовал авторизацию и аутентификация пользователя.`,
+      ru: `Реализовал рендеринг habits и их добавление с уникальным цветом для каждого.`,
       en: `Implemented rendering habits and adding them with a unique color for each.`
+    },
+    authorisationH: {
+      ru: `Реализовал авторизацию и аутентификация
+            пользователя.`,
+      en: `Implemented user authorization and authentication.`
+    },
+    authorisationG: {
+      ru: `Реализовал авторизацию и аутентификация
+            пользователя.`,
+      en: `Implemented user authorization and authentication.`
     },
     saveData: {
       ru: `Обеспечил сохранение данных и их восстановление при перезагрузке страницы.`,
