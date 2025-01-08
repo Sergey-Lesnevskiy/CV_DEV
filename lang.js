@@ -78,25 +78,20 @@ const langArr = {
       en: "Work Experience",
     },
     pixel: {
-      ru: `Создал двухстраничный адаптивный сайт по макету из Figma с точностью до пикселя
-      (pixel perfect).`,
-      en: `I created a two-page adaptive website based on a pixel-perfect layout from Figma
-      (pixel perfect).`,
+      ru: `Сделал верстку для многостраничного сайта (pixel perfect).`,
+      en: `Made a layout for a multi-page website(pixel perfect).`,
     },
     burger: {
-      ru: `Реализовал функционал каруселей, бургер-меню и попапов с использованием
-      JavaScript.`,
-      en: `Implemented carousel, burger menu and popup functionality using
-      JavaScript.`,
+      ru: `Реализовал функционал каруселей (Swiper), бургер-меню и попапов с использованием JavaScript.`,
+      en: `Implemented carousel (Swiper), burger-menu and popup functionality using JavaScript`,
+    },
+    browser: {
+      ru: ` Обеспечил кросс-браузерную совместимость и адаптивность сайта.`,
+      en: `Ensured cross-browser compatibility and adaptability of the site.`,
     },
     stack: {
       ru: `Стек:`,
       en: `Stack:`,
-    },
-
-    browser: {
-      ru: `Обеспечил кросс-браузерную совместимость и адаптивность сайта.`,
-      en: `Ensured cross-browser compatibility and adaptability of the site.`,
     },
     trainee: {
       ru: "стажировка",
@@ -126,25 +121,27 @@ const langArr = {
     },
     PHP: {
       ru: `Добавлял компоненты на страницы с помощью PHP.`,
-      en: `I added components to the pages with the help of PHP`,
+      en: `I added components to the pages with the help of PHP.`,
     },
     stackD: {
       ru: `Стек:`,
       en: `Stack:`,
     },
     momentumServer: {
-      ru: `Работал с серверными запросами и отображением данных на экране.`,
-      en: `Worked with server requests and displaying data on the screen.`,
+      ru: `Работал с версткой (выравнивал под макет).`,
+      en: `Worked with layout (aligned to the layout).`,
     },
     momentumInteractivity: {
-      ru: `Создал минимальный интерактив с пользователем, обеспечив удобство использования
-      приложения.`,
-      en: `Created minimal interactivity with the user, ensuring the usability of the
-      of the application.`,
+      ru: ` Добавлял анимацию, корректировал параметры SLICK SLIDER.`,
+      en: `I added animation, adjusted SLICK SLIDER parameters.`,
     },
     momentumAudio: {
-      ru: `Разработал кастомный аудиоплеер, интегрировав его в пользовательский интерфейс.`,
-      en: `Developed a custom audio player, integrating it into the UI`,
+      ru: ` Кастомизировал персональный кабинет woocommerce (добавление страниц, изменения хлебных крошек, изменения title).`,
+      en: ` Customised woocommerce personal account (adding pages, changing breadcrumbs, changing title).`,
+    },
+    hook: {
+      ru: `Работал с хуками и фильтрами WordPress.`,
+      en: ` Worked with WordPress hooks and filters.`,
     },
     stackMom: {
       ru: `Стек:`,
@@ -211,22 +208,6 @@ const langArr = {
     oldData: {
       ru: `Редактировал отображение данных для сыгранных турниров.`,
       en: `Edited the data display for tournaments played.`
-    },
-    logic: {
-      ru: `Разработал логическую часть онлайн-магазина (SPA) с использованием TypeScript.`,
-      en: `Developed the logical part of an online shop (SPA) using TypeScript.`
-    },
-    sort: {
-      ru: `Реализовал поиск, сортировку, добавление и удаление товаров в корзину.`,
-      en: `Implemented searching, sorting, adding and removing items to the basket.`
-    },
-    routS: {
-      ru: `Настроил роутинг для обеспечения плавной навигации по приложению.`,
-      en: `Configured routing to ensure smooth navigation through the application.`
-    },
-    stackOnline: {
-      ru: `Стек:`,
-      en: `Stack:`,
     },
     study: {
       ru: `Учебные проекты:`,
