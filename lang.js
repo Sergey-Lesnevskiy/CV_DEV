@@ -5,6 +5,7 @@ const langArr = {
       en: "Lesnevsky Sergey",
     },
   },
+
   profile: {
     goal: {
       ru: "Цель",
@@ -32,6 +33,16 @@ const langArr = {
       I devote my free time to studying modern trends in web development and participating in open-source projects.<br> 
       GitHub: <a href="https://github.com/Sergey-Lesnevskiy">https://github.com/Sergey-Lesnevskiy</a> .`,
     },
+  },
+    footer: {
+    googleDocx1: {
+      ru: `Ссылка на CV: &nbsp`,
+      en: `Link to CV: &nbsp`
+    },
+    saveDocx: {
+      ru: `Скачать CV (docx): &nbsp`,
+      en: `Download the CV (docx): &nbsp`
+    }
   },
   certificates: {
     title: {
@@ -77,7 +88,7 @@ const langArr = {
       ru: "Опыт работы",
       en: "Work Experience",
     },
-    pixel: {
+pixel: {
       ru: `Сделал верстку для многостраничного сайта (pixel perfect).`,
       en: `Made a layout for a multi-page website(pixel perfect).`,
     },
@@ -89,7 +100,39 @@ const langArr = {
       ru: ` Обеспечил кросс-браузерную совместимость и адаптивность сайта.`,
       en: `Ensured cross-browser compatibility and adaptability of the site.`,
     },
+
+
+    launcher: {
+      ru: "Лаунчер",
+      en: "Launcher",
+    },
+
+    beloni: {
+      ru: `Салона Белони`,
+      en: `Beloni`,
+    },
+
+    pixel1: {
+      ru: `Сделал верстку для многостраничного сайта (pixel perfect).`,
+      en: `Made a layout for a multi-page website(pixel perfect).`,
+    },
+    burger1: {
+      ru: `Реализовал функционал каруселей (Swiper), бургер-меню и попапов с использованием JavaScript.`,
+      en: `Implemented carousel (Swiper), burger-menu and popup functionality using JavaScript`,
+    },
+    browser1: {
+      ru: ` Обеспечил кросс-браузерную совместимость и адаптивность сайта.`,
+      en: `Ensured cross-browser compatibility and adaptability of the site.`,
+    },
     stack: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    stackBeloni: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    stackA: {
       ru: `Стек:`,
       en: `Stack:`,
     },
@@ -97,10 +140,57 @@ const langArr = {
       ru: "стажировка",
       en: "trainee",
     },
+
+    AbyssRisingt: {
+      ru: "Разработал интерфейс для сайта AbyssRising.games на базе Next.js + TypeScript.",
+      en: "Developed an interface for the AbyssRising.games website based on Next.js + TypeScript.",
+    },
+    UI: {
+      ru: "Создал универсальные UI-компоненты (TabButton, CardsBoard, UserImage и др.) с адаптивностью и стилизованными состояниями.",
+      en: "Created universal UI components (TabButton, CardsBoard, UserImage, etc.) with adaptability and stylized states.",
+    },
+    avatar: {
+      ru: "Реализовал смену аватарки и пароля пользователя: выбор файла, предпросмотр, отправка на сервер, обновление UI.",
+      en: "Implemented changing the user's avatar and password: file selection, preview, sending to the server, UI update.",
+    },
+    adaptive: {
+      ru: "Обеспечил адаптивную и кроссбраузерную верстку, работал с hover-эффектами, анимацией, предотвращением layout shift.",
+      en: "Provided adaptive and cross-browser layout, worked with hover effects, animation, and preventing layout shift.",
+    },
+    fifa1: {
+      ru: `Онлайн приложение для проведения турниров по FIFA. Игроки соревнуются между собой победами в матчах FIFA.`,
+      en: `Online application for FIFA tournaments. Players compete by winning FIFA matches.`
+    },
+    admin: {
+      ru: `Добавил раздел турниры в админ-панель.`,
+      en: `Added a tournaments section to the admin panel.`
+    },
+    conditions: {
+      ru: `Добавил разделы в админ-панели для изменения условий турнира.`,
+      en: `Added sections in the admin panel for changing tournament conditions.`
+    },
+    ui: {
+      ru: `Редактировал UI карточек игроков.`,
+      en: `Edited the UI of the player cards.`
+    },
+    valid: {
+      ru: `Добавил валидацию данных при смене пароля пользователем.`,
+      en: `Added data validation when user changes password.`
+    },
+    stackFiFa: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    oldData: {
+      ru: `Редактировал отображение данных для сыгранных турниров.`,
+      en: `Edited the data display for tournaments played.`
+    },
+
     freelance: {
       ru: "Фриланс",
       en: "Freelance",
     },
+
     dmsh: {
       ru: "Сайт для музыкальной школы.",
       en: "Website for a music school.",
@@ -147,7 +237,12 @@ const langArr = {
       ru: `Стек:`,
       en: `Stack:`,
     },
-    pixel1: {
+    
+    study1: {
+      ru: `Учебные проекты:`,
+      en: `Study Projects:`
+    },
+    pixelPortfolio: {
       ru: `Разработал одностраничный адаптивный сайт по макету из Figma с точностью до
   пикселя.`,
       en: `Developed a one-page adaptive website based on Figma layout with accuracy up to
@@ -165,54 +260,7 @@ const langArr = {
       ru: `Стек:`,
       en: `Stack:`,
     },
-    copy: {
-      ru: `Создал копию игры в пятнашки, используя Canvas и JavaScript.`,
-      en: `Created a copy of the game of spots using Canvas and JavaScript.`
-    },
-    animation: {
-      ru: `Обеспечил интерактивное взаимодействие с пользователем и плавную анимацию.`,
-      en: `Provided interactive user interaction and smooth animations.`
-    },
-    interactivity: {
-      ru: `Создал минимальный интерактив с пользователем, обеспечив удобство использования приложения.`,
-      en: `Created minimal interactivity with the user, ensuring the usability of the application.`
-    },
-    stackFif: {
-      ru: `Стек:`,
-      en: `Stack:`,
-    },
-    fifa: {
-      ru: `Онлайн приложение для проведения турниров по FIFA. Игроки соревнуются между собой победами в матчах FIFA.`,
-      en: `Online application for FIFA tournaments. Players compete by winning FIFA matches.`
-    },
-    admin: {
-      ru: `Добавил раздел турниры в админ-панель.`,
-      en: `Added a tournaments section to the admin panel.`
-    },
-    conditions: {
-      ru: `Добавил разделы в админ-панели для изменения условий турнира.`,
-      en: `Added sections in the admin panel for changing tournament conditions.`
-    },
-    ui: {
-      ru: `Редактировал UI карточек игроков.`,
-      en: `Edited the UI of the player cards.`
-    },
-    valid: {
-      ru: `Добавил валидацию данных при смене пароля пользователем.`,
-      en: `Added data validation when user changes password.`
-    },
-    stackFiFa: {
-      ru: `Стек:`,
-      en: `Stack:`,
-    },
-    oldData: {
-      ru: `Редактировал отображение данных для сыгранных турниров.`,
-      en: `Edited the data display for tournaments played.`
-    },
-    study: {
-      ru: `Учебные проекты:`,
-      en: `Study Projects:`
-    },
+
     database: {
       ru: `В рамках финального проекта курсов JS отвечал за работу с базой данных и backend.`,
       en: `As part of the final course project, JS was responsible for the database and backend.`
@@ -268,14 +316,5 @@ const langArr = {
       en: `Configured interaction with external services and processing of form data.`
     },
   },
-  footer: {
-    googleDocx: {
-      ru: `Ссылка на CV: &nbsp`,
-      en: `Link to CV: &nbsp`
-    },
-    saveDocx: {
-      ru: `Скачать CV (docx): &nbsp`,
-      en: `Download the CV (docx): &nbsp`
-    }
-  }
+
 };
