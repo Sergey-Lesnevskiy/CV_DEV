@@ -1,0 +1,324 @@
+const langArr = {
+  hero: {
+    title: {
+      ru: "Лесневский Сергей",
+      en: "Lesnevsky Sergey",
+    },
+  },
+
+  profile: {
+    goal: {
+      ru: "Цель",
+      en: "Goal",
+    },
+    title: {
+      ru: "Профиль",
+      en: "Profile",
+    },
+    desc: {
+      ru: `
+      Frontend разработчик, опыт создания веб-приложений 1 год.<br>
+      Открыт к любым предложениям (работа в штате, по договору подряда, самозанятость). <br>
+      Рассмотрю вариант стажировки.<br>
+      Участвую в хакатонах и онлайн конкурсах по веб-разработке.<br> 
+      Постоянно обучаюсь новым технологиям и улучшению существующих навыков.<br> 
+      Свободное время посвящаю изучению современных тенденций в веб-разработке и участию в open-source проектах.<br> 
+      GitHub: <a href="https://github.com/Sergey-Lesnevskiy">https://github.com/Sergey-Lesnevskiy</a>`,
+      en: `
+      Frontend developer, experience in creating web applications for 1 year. <br>
+      Open to any offers (work in the state, on a contractual basis, self-employment). <br>
+      I will consider an internship. <br>
+      I participate in hackathons and online web development competitions.<br> 
+      I am constantly learning new technologies and improving existing skills.<br> 
+      I devote my free time to studying modern trends in web development and participating in open-source projects.<br> 
+      GitHub: <a href="https://github.com/Sergey-Lesnevskiy">https://github.com/Sergey-Lesnevskiy</a> .`,
+    },
+  },
+    footer: {
+    googleDocx1: {
+      ru: `Ссылка на CV: &nbsp`,
+      en: `Link to CV: &nbsp`
+    },
+    saveDocx: {
+      ru: `Скачать CV (docx): &nbsp`,
+      en: `Download the CV (docx): &nbsp`
+    }
+  },
+  certificates: {
+    title: {
+      ru: "Сертификаты",
+      en: "Certificates",
+    },
+  },
+  skills: {
+    title: {
+      ru: "Навыки",
+      en: "Skills",
+    },
+    API: {
+      ru: `Работа с API запросами, GraphQL`,
+      en: `Work with API request, GraphQL`,
+    },
+    data: {
+      ru: `Работа с базами данных`,
+      en: `Work with database`,
+    },
+    adaptive: {
+      ru: `Адаптивная и кросс-браузерная верстка`,
+      en: `Adaptive and cross-browser layout`,
+    },
+  },
+
+  education: {
+    title: {
+      ru: "Образование",
+      en: "Education: ",
+    },
+    senla: {
+      ru: "2020 Курсы QAQ в компании Senla(Java)",
+      en: "2020 Courses Automated testing in the company Senla(Java)",
+    },
+    bgam: {
+      ru: "2009 Высшее образование БГАМ",
+      en: "2009 I graduated from the BGAM",
+    },
+  },
+  experience: {
+    title: {
+      ru: "Опыт работы",
+      en: "Work Experience",
+    },
+    subtitle: {
+      ru: "03/2025 – настоящее время",
+      en: "03/2025 – present",
+    },
+pixel: {
+      ru: `Сделал верстку для многостраничного сайта (pixel perfect).`,
+      en: `Made a layout for a multi-page website(pixel perfect).`,
+    },
+    burger: {
+      ru: `Реализовал функционал каруселей (Swiper), бургер-меню и попапов с использованием JavaScript.`,
+      en: `Implemented carousel (Swiper), burger-menu and popup functionality using JavaScript`,
+    },
+    browser: {
+      ru: ` Обеспечил кросс-браузерную совместимость и адаптивность сайта.`,
+      en: `Ensured cross-browser compatibility and adaptability of the site.`,
+    },
+
+
+    launcher: {
+      ru: "Лаунчер",
+      en: "Launcher",
+    },
+
+    beloni: {
+      ru: `Салона Белони`,
+      en: `Beloni`,
+    },
+
+    pixel1: {
+      ru: `Сделал верстку для многостраничного сайта (pixel perfect).`,
+      en: `Made a layout for a multi-page website(pixel perfect).`,
+    },
+    burger1: {
+      ru: `Реализовал функционал каруселей (Swiper), бургер-меню и попапов с использованием JavaScript.`,
+      en: `Implemented carousel (Swiper), burger-menu and popup functionality using JavaScript`,
+    },
+    browser1: {
+      ru: ` Обеспечил кросс-браузерную совместимость и адаптивность сайта.`,
+      en: `Ensured cross-browser compatibility and adaptability of the site.`,
+    },
+    stack: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    stackBeloni: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    stackA: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    trainee: {
+      ru: "стажировка",
+      en: "trainee",
+    },
+
+    AbyssRisingt: {
+      ru: "Разработал интерфейс для сайта AbyssRising.games на базе Next.js + TypeScript.",
+      en: "Developed an interface for the AbyssRising.games website based on Next.js + TypeScript.",
+    },
+    UI: {
+      ru: "Создал универсальные UI-компоненты (TabButton, CardsBoard, UserImage и др.) с адаптивностью и стилизованными состояниями.",
+      en: "Created universal UI components (TabButton, CardsBoard, UserImage, etc.) with adaptability and stylized states.",
+    },
+    avatar: {
+      ru: "Реализовал смену аватарки и пароля пользователя: выбор файла, предпросмотр, отправка на сервер, обновление UI.",
+      en: "Implemented changing the user's avatar and password: file selection, preview, sending to the server, UI update.",
+    },
+    adaptive: {
+      ru: "Обеспечил адаптивную и кроссбраузерную верстку, работал с hover-эффектами, анимацией, предотвращением layout shift.",
+      en: "Provided adaptive and cross-browser layout, worked with hover effects, animation, and preventing layout shift.",
+    },
+    fifa1: {
+      ru: `Онлайн приложение для проведения турниров по FIFA. Игроки соревнуются между собой победами в матчах FIFA.`,
+      en: `Online application for FIFA tournaments. Players compete by winning FIFA matches.`
+    },
+    admin: {
+      ru: `Добавил раздел турниры в админ-панель.`,
+      en: `Added a tournaments section to the admin panel.`
+    },
+    conditions: {
+      ru: `Добавил разделы в админ-панели для изменения условий турнира.`,
+      en: `Added sections in the admin panel for changing tournament conditions.`
+    },
+    ui: {
+      ru: `Редактировал UI карточек игроков.`,
+      en: `Edited the UI of the player cards.`
+    },
+    valid: {
+      ru: `Добавил валидацию данных при смене пароля пользователем.`,
+      en: `Added data validation when user changes password.`
+    },
+    stackFiFa: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    oldData: {
+      ru: `Редактировал отображение данных для сыгранных турниров.`,
+      en: `Edited the data display for tournaments played.`
+    },
+
+    freelance: {
+      ru: "Фриланс",
+      en: "Freelance",
+    },
+
+    dmsh: {
+      ru: "Сайт для музыкальной школы.",
+      en: "Website for a music school.",
+    },
+    beCloud: {
+      ru: `Изучил документацию по работе с виртуальным защищенным хостингом BeCloud и успешно перенес сайт на
+      сервер.`,
+      en: "Studied the BeCloud secure shared hosting documentation and successfully migrated the site to the server.",
+    },
+    wordPress: {
+      ru: `Изучил документацию для работы с WordPress(установку, настройку и
+        администрирование сайта).`,
+      en: `Studied the documentation for working with WordPress(installing, configuring and administering the site).`,
+    },
+    optimized: {
+      ru: `Оптимизировал производительность сайта и обеспечил его бесперебойную работу.`,
+      en: `Optimized the performance of the website and ensured it ran smoothly.`,
+    },
+    PHP: {
+      ru: `Добавлял компоненты на страницы с помощью PHP.`,
+      en: `I added components to the pages with the help of PHP.`,
+    },
+    stackD: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    momentumServer: {
+      ru: `Работал с версткой (выравнивал под макет).`,
+      en: `Worked with layout (aligned to the layout).`,
+    },
+    momentumInteractivity: {
+      ru: ` Добавлял анимацию, корректировал параметры SLICK SLIDER.`,
+      en: `I added animation, adjusted SLICK SLIDER parameters.`,
+    },
+    momentumAudio: {
+      ru: ` Кастомизировал персональный кабинет woocommerce (добавление страниц, изменения хлебных крошек, изменения title).`,
+      en: ` Customised woocommerce personal account (adding pages, changing breadcrumbs, changing title).`,
+    },
+    hook: {
+      ru: `Работал с хуками и фильтрами WordPress.`,
+      en: ` Worked with WordPress hooks and filters.`,
+    },
+    stackMom: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    
+    study1: {
+      ru: `Учебные проекты:`,
+      en: `Study Projects:`
+    },
+    pixelPortfolio: {
+      ru: `Разработал одностраничный адаптивный сайт по макету из Figma с точностью до
+  пикселя.`,
+      en: `Developed a one-page adaptive website based on Figma layout with accuracy up to
+  pixel.`
+    },
+    burgerP: {
+      ru: `Реализовал бургер-меню и валидацию формы.`,
+      en: `Implemented burger-menu and form validation`,
+    },
+    fake: {
+      ru: `Реализовал 'fake' запросы на сервер для демонстрации взаимодействия с API.`,
+      en: `Implemented ‘fake’ requests to the server to demonstrate interaction with the API.`
+    },
+    stackPort: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+
+    database: {
+      ru: `В рамках финального проекта курсов JS отвечал за работу с базой данных и backend.`,
+      en: `As part of the final course project, JS was responsible for the database and backend.`
+    },
+    uniqueColor: {
+      ru: `Реализовал рендеринг habits и их добавление с уникальным цветом для каждого.`,
+      en: `Implemented rendering habits and adding them with a unique color for each.`
+    },
+    authorisationH: {
+      ru: `Реализовал авторизацию и аутентификация
+            пользователя.`,
+      en: `Implemented user authorization and authentication.`
+    },
+    authorisationG: {
+      ru: `Реализовал авторизацию и аутентификация
+            пользователя.`,
+      en: `Implemented user authorization and authentication.`
+    },
+    saveData: {
+      ru: `Обеспечил сохранение данных и их восстановление при перезагрузке страницы.`,
+      en: `Ensured that data is saved and restored when the page is reloaded.`
+    },
+    stackHabit: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    finaleProject: {
+      ru: `Финальный проект курса по React, включающий работу с GraphQL.`,
+      en: `Final project for a course on React, including work with GraphQL.`
+    },
+    GraphQLOptimization: {
+      ru: `Учебные проекты:`,
+      en: `Integrated GraphQL to optimise server and client interaction.`
+    },
+    stackGraphQL: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    stackForm: {
+      ru: `Стек:`,
+      en: `Stack:`,
+    },
+    reactApi: {
+      ru: `Учебный проект на React, в котором была реализована работа с API.`,
+      en: `A React tutorial project that involved working with an API.`
+    },
+    useForm: {
+      ru: `Обеспечил работу формы через useRef и useForm, а также серверный рендеринг (SSR).`,
+      en: `Ensured the operation of the form through RefObject and useForm, as well as server rendering (SSR)`
+    },
+    externalServices: {
+      ru: `Настроил взаимодействие с внешними сервисами и обработку данных форм.`,
+      en: `Configured interaction with external services and processing of form data.`
+    },
+  },
+
+};
