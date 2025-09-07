@@ -88,6 +88,10 @@ const langArr = {
       ru: "Опыт работы",
       en: "Work Experience",
     },
+    subtitle: {
+      ru: "03/2025 – настоящее время",
+      en: "03/2025 – present",
+    },
 pixel: {
       ru: `Сделал верстку для многостраничного сайта (pixel perfect).`,
       en: `Made a layout for a multi-page website(pixel perfect).`,
